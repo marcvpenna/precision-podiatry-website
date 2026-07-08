@@ -176,6 +176,27 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 
+/* Real Images */
+.hero-img,
+.approach-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.hero-image {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.approach-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* ========================================
    SECTIONS
    ======================================== */
@@ -404,8 +425,9 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(12, 29, 45, 0.03) 0%, rgba(172, 136, 63, 0.05) 100%);
+    background: url('images/faq-doctor.jpg') center / cover;
     z-index: 0;
+    opacity: 0.15;
 }
 
 .faq-section .container {
@@ -445,6 +467,21 @@ h1, h2, h3, h4, h5, h6 {
     gap: 24px;
 }
 
+.insurance-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.insurance-logos-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(12, 29, 45, 0.08);
+}
+
+/* Fallback for missing image */
 .insurance-logo {
     display: flex;
     align-items: center;
