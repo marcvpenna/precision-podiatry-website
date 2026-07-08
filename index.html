@@ -11,18 +11,22 @@
     <!-- HEADER -->
     <header class="header">
         <div class="header-content">
-            <div class="header-left">
-                <div class="logo">PPG</div>
+            <div class="logo-section">
+                <div class="logo-circle">PPG</div>
+                <div>
+                    <div class="company-name-header">Precision Podiatry Group</div>
+                    <div class="tagline-header">Clinical Concierge Care</div>
+                </div>
             </div>
             <div class="header-right">
-                <a href="https://instagram.com/precisionpodiatrygroup" target="_blank" class="social-icon" title="Instagram">
+                <a href="https://instagram.com/precisionpodiatrygroup" target="_blank" class="social-icon">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                         <circle cx="17.5" cy="6.5" r="1.5"></circle>
                     </svg>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61590408946021" target="_blank" class="social-icon" title="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61590408946021" target="_blank" class="social-icon">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h3v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h3z"></path>
                     </svg>
@@ -38,50 +42,38 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-content">
-            <h3 class="hero-positioning">A Clinical Partner for Your Facility</h3>
-            <div class="logo-large">
-                <svg width="80" height="80" viewBox="0 0 100 100" fill="none">
-                    <circle cx="50" cy="50" r="45" stroke="#AC883F" stroke-width="2"/>
-                    <text x="50" y="60" text-anchor="middle" font-family="Cormorant Garamond" font-size="48" font-weight="700" fill="#0C1D2D">PPG</text>
-                </svg>
-            </div>
-            <h1 class="company-name">Precision Podiatry Group</h1>
-            <p class="tagline">Clinical Concierge Care</p>
+            <h1 class="hero-title">A Clinical Partner for Your Facility</h1>
+            <a href="#contact" class="btn-primary">Request a Facility Consultation</a>
         </div>
-        <div class="hero-image">
-            <img src="images/hero-hands.jpg" alt="Caring hands holding" class="hero-img">
+        <div class="hero-image-container">
+            <img src="images/hero-hands.jpg" alt="Caring hands" class="hero-image">
         </div>
     </section>
 
-    <!-- SECTION 1: OUR APPROACH -->
-    <section class="section approach-section">
+    <!-- OUR APPROACH SECTION -->
+    <section class="section approach-section" id="approach">
         <div class="container">
-            <h2>OUR APPROACH</h2>
-            <div class="approach-content">
+            <h2 class="section-title">Our Approach</h2>
+            <div class="approach-grid">
                 <div class="approach-text">
                     <p>Precision Podiatry Group provides elevated in-facility podiatric and wound care services designed to support both resident well-being and facility excellence. We partner with assisted living facilities, nursing homes, rehabilitation centers, SNFs and hospice organizations to deliver attentive, preventative and clinically focused care that prioritizes comfort, mobility, dignity and quality of life.</p>
                     <p>Our commitment extends beyond treatment alone. Through responsive service, continuity of care and a patient-centered approach, we support facilities in fostering greater resident and family satisfaction while upholding high standards of care and operational excellence.</p>
                 </div>
                 <div class="approach-image">
-                    <img src="images/approach-caregiver.jpg" alt="Caregiver with senior resident" class="approach-img">
+                    <img src="images/approach-caregiver.jpg" alt="Caregiver with patient">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 2: SPECIALIZED CLINICAL CARE -->
-    <section class="section services-section">
+    <!-- SPECIALIZED CLINICAL CARE SECTION -->
+    <section class="section services-section" id="services">
         <div class="container">
-            <h2>SPECIALIZED CLINICAL CARE</h2>
+            <h2 class="section-title">Specialized Clinical Care</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="#AC883F" stroke-width="1.5">
-                            <path d="M24 4V44M4 24H44M8 8H16V16H8V8ZM32 8H40V16H32V8Z"/>
-                        </svg>
-                    </div>
                     <h3>Advanced Wound Care & Prevention</h3>
                     <ul>
                         <li>Comprehensive wound evaluation & healing optimization</li>
@@ -92,12 +84,6 @@
                 </div>
 
                 <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="#AC883F" stroke-width="1.5">
-                            <path d="M24 8C20 12 18 16 18 22C18 30 21 36 24 40C27 36 30 30 30 22C30 16 28 12 24 8Z"/>
-                            <circle cx="24" cy="22" r="2" fill="#AC883F"/>
-                        </svg>
-                    </div>
                     <h3>Podiatric Bedside Care</h3>
                     <ul>
                         <li>Comprehensive diabetic foot evaluations</li>
@@ -109,12 +95,6 @@
                 </div>
 
                 <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="#AC883F" stroke-width="1.5">
-                            <rect x="8" y="6" width="32" height="36" rx="2"/>
-                            <path d="M12 12H36M12 18H36M12 24H36M12 30H30"/>
-                        </svg>
-                    </div>
                     <h3>Integrated Facility Support</h3>
                     <ul>
                         <li>Real-time bedside documentation</li>
@@ -127,204 +107,167 @@
         </div>
     </section>
 
-    <!-- SECTION 3: THE PRECISION MISSION -->
-    <section class="section mission-section">
+    <!-- THE PRECISION MISSION SECTION -->
+    <section class="section mission-section" id="mission">
         <div class="container">
-            <h2>THE PRECISION MISSION</h2>
+            <h2 class="section-title">The Precision Mission</h2>
             <div class="mission-content">
                 <p class="mission-quote">"We believe the best healthcare is preventative, not reactive. Our mission is to preserve mobility, prevent limb loss, and advance patients from wound care to wound healing."</p>
-                <div class="mission-icon">
-                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                        <circle cx="40" cy="40" r="38" stroke="#AC883F" stroke-width="2"/>
-                        <path d="M40 15C35 20 32 26 32 35C32 45 36 52 40 58C44 52 48 45 48 35C48 26 45 20 40 15Z" fill="#AC883F" opacity="0.2" stroke="#AC883F" stroke-width="1.5"/>
-                        <circle cx="40" cy="35" r="3" fill="#AC883F"/>
-                    </svg>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 4: WHY FACILITIES PARTNER -->
-    <section class="section why-section">
+    <!-- WHY FACILITIES PARTNER SECTION -->
+    <section class="section why-partner-section" id="why-partner">
         <div class="container">
-            <h2>Why Facilities Partner with Precision Podiatry Group</h2>
-            <div class="checkmarks-grid">
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+            <h2 class="section-title">Why Facilities Partner with Precision Podiatry Group</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
                     <p>A proactive—not reactive—approach to podiatric care, emphasizing prevention, early intervention and better long-term resident outcomes.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Consistent, scheduled on-site podiatry services tailored to your facility's clinical needs.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Reliable scheduling and consistent provider availability, ensuring dependable care for your residents.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Priority evaluation for urgent foot and wound concerns within 24–48 hours to help prevent unnecessary complications.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Early identification of high-risk foot conditions to reduce complications and support resident mobility.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Timely bedside documentation and clinical communication that supports continuity of care and keeps your interdisciplinary team informed.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Clinical protocols focused on limb preservation and wound healing that improve resident outcomes, reduce avoidable hospitalizations and strengthen facility quality measures.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Collaborative care with your nursing staff, ensuring seamless communication and coordinated resident care.</p>
                 </div>
-                <div class="checkmark-item">
-                    <span class="checkmark">✓</span>
+                <div class="benefit-item">
                     <p>Strict adherence to OSHA, OBRA, HIPAA and infection control standards.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 5: THE RESIDENT EXPERIENCE -->
-    <section class="section experience-section">
+    <!-- RESIDENT EXPERIENCE SECTION -->
+    <section class="section resident-section" id="resident-experience">
         <div class="container">
-            <h2>The Resident Experience with Precision Podiatry Group</h2>
-            <div class="experience-grid">
-                <div class="experience-column">
+            <h2 class="section-title">The Resident Experience with Precision Podiatry Group</h2>
+            <div class="resident-grid">
+                <div class="resident-column">
                     <h3>Expert Podiatric Care</h3>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Comprehensive foot and ankle evaluations with personalized treatment plans tailored to each resident</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Preventive care focused on preserving mobility, reducing complications and supporting long-term foot health</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Comprehensive wound care designed to move residents from wound management to wound healing</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Diabetic foot management and limb preservation focused on preventing complications and maintaining mobility</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Priority evaluations for urgent concerns with timely follow-up care</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Minor bedside procedures performed safely and comfortably when clinically appropriate</p>
-                    </div>
+                    <ul>
+                        <li>Comprehensive foot and ankle evaluations with personalized treatment plans tailored to each resident</li>
+                        <li>Preventive care focused on preserving mobility, reducing complications and supporting long-term foot health</li>
+                        <li>Comprehensive wound care designed to move residents from wound management to wound healing</li>
+                        <li>Diabetic foot management and limb preservation focused on preventing complications and maintaining mobility</li>
+                        <li>Priority evaluations for urgent concerns with timely follow-up care</li>
+                        <li>Minor bedside procedures performed safely and comfortably when clinically appropriate</li>
+                    </ul>
                 </div>
-                <div class="experience-column">
+                <div class="resident-column">
                     <h3>Exceptional Resident Care</h3>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Compassionate, one-on-one bedside care delivered by experienced podiatrists</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Ongoing follow-up visits that promote continuity of care and lasting clinical outcomes</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Seamless communication and collaboration with nursing staff, families and primary care providers</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Personalized attention that helps residents remain comfortable, confident and as independent as possible</p>
-                    </div>
-                    <div class="checkmark-item">
-                        <span class="checkmark">✓</span>
-                        <p>Care that recognizes every resident as an individual</p>
-                    </div>
+                    <ul>
+                        <li>Compassionate, one-on-one bedside care delivered by experienced podiatrists</li>
+                        <li>Ongoing follow-up visits that promote continuity of care and lasting clinical outcomes</li>
+                        <li>Seamless communication and collaboration with nursing staff, families and primary care providers</li>
+                        <li>Personalized attention that helps residents remain comfortable, confident and as independent as possible</li>
+                        <li>Care that recognizes every resident as an individual</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 6: FAQ -->
-    <section class="section faq-section">
+    <!-- FAQ SECTION -->
+    <section class="section faq-section" id="faq">
         <div class="faq-bg"></div>
         <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <div class="faq-content">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
                 <div class="faq-item">
-                    <h3>1. What types of facilities do you serve?</h3>
+                    <h3>What types of facilities do you serve?</h3>
                     <p>We provide on-site podiatric care for skilled nursing facilities (SNFs), assisted living facilities (ALFs), rehabilitation centers, long-term care communities, memory care, and hospice settings throughout Miami-Dade and Broward counties.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>2. What services do you provide on-site?</h3>
+                    <h3>What services do you provide on-site?</h3>
                     <p>Our services include comprehensive foot and ankle evaluations, diabetic foot care, advanced wound care, limb preservation, routine foot care, pressure injury prevention, bedside minor procedures, infection management, vascular and neuropathy assessments, and treatment of foot and ankle pain.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>3. How quickly can residents be seen, and how often do you visit?</h3>
+                    <h3>How quickly can residents be seen, and how often do you visit?</h3>
                     <p>We work closely with each facility to establish a consistent visitation schedule based on resident needs and census. We also prioritize timely evaluations for urgent concerns, ensuring residents receive prompt, ongoing care without unnecessary delays.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>4. Does your team handle documentation and communication?</h3>
+                    <h3>Does your team handle documentation and communication?</h3>
                     <p>Yes. We complete real-time bedside documentation and communicate treatment plans, recommendations, and follow-up needs directly with facility staff, helping improve coordination of care and supporting quality metrics.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>5. How do you ensure hygiene and safety during visits?</h3>
+                    <h3>How do you ensure hygiene and safety during visits?</h3>
                     <p>We follow strict sterilization and infection control protocols during every visit. All equipment is thoroughly sanitized, and our providers adhere to the highest standards of cleanliness and safety to protect residents, staff, and the facility environment.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>6. How does partnering with Precision Podiatry Group benefit our facility?</h3>
+                    <h3>How does partnering with Precision Podiatry Group benefit our facility?</h3>
                     <p>Our proactive approach helps identify problems before they become emergencies, reducing avoidable hospitalizations, supporting limb preservation, improving resident mobility, enhancing quality outcomes, and providing families with greater peace of mind—all while reducing the burden on your clinical staff.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 7: INSURANCE -->
-    <section class="section insurance-section">
+    <!-- INSURANCE SECTION -->
+    <section class="section insurance-section" id="insurance">
         <div class="container">
-            <h2>INSURANCE PLANS ACCEPTED</h2>
-            <div class="insurance-logos-container">
-                <img src="images/insurance-logos.jpg" alt="Accepted insurance plans: Medicare, Medicaid, United Healthcare, Humana, Aetna, BCBS" class="insurance-logos-img">
+            <h2 class="section-title">Insurance Plans Accepted</h2>
+            <div class="insurance-container">
+                <img src="images/insurance-logos.jpg" alt="Accepted insurance plans">
             </div>
         </div>
     </section>
 
-    <!-- SECTION 8: CTA -->
-    <section class="section cta-section">
+    <!-- CTA SECTION -->
+    <section class="section cta-section" id="contact">
         <div class="container">
-            <h2>PARTNER WITH PRECISION</h2>
+            <h2 class="section-title">Partner With Precision</h2>
             <p class="cta-subtitle">Discover how Precision Podiatry Group can elevate your facility with seamless, high-touch podiatric care</p>
             
             <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <input type="text" id="facilityName" name="facilityName" placeholder="Facility Name" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="facilityName" name="facilityName" placeholder="Facility Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contactName" name="contactName" placeholder="Contact Name" required>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="text" id="contactName" name="contactName" placeholder="Contact Name" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Email" required>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <select id="facilityType" name="facilityType" required>
+                            <option value="">Select Facility Type</option>
+                            <option value="snf">Skilled Nursing Facility (SNF)</option>
+                            <option value="alf">Assisted Living Facility (ALF)</option>
+                            <option value="rehab">Rehabilitation Center</option>
+                            <option value="ltc">Long-Term Care</option>
+                            <option value="memory">Memory Care</option>
+                            <option value="hospice">Hospice</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
-                </div>
-                <div class="form-group">
-                    <select id="facilityType" name="facilityType" required>
-                        <option value="">Select Facility Type</option>
-                        <option value="snf">Skilled Nursing Facility (SNF)</option>
-                        <option value="alf">Assisted Living Facility (ALF)</option>
-                        <option value="rehab">Rehabilitation Center</option>
-                        <option value="ltc">Long-Term Care</option>
-                        <option value="memory">Memory Care</option>
-                        <option value="hospice">Hospice</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+                    </div>
                 </div>
                 <button type="submit" class="btn-submit">REQUEST A FACILITY CONSULTATION</button>
             </form>
@@ -332,23 +275,30 @@
             <div class="contact-info">
                 <p><strong>Phone:</strong> 786-649-7128</p>
                 <p><strong>Email:</strong> info@precisionpodiatrygroup.com</p>
-                <div class="footer-socials">
-                    <a href="https://instagram.com/precisionpodiatrygroup" target="_blank" class="social-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                            <circle cx="17.5" cy="6.5" r="1.5"></circle>
-                        </svg>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=61590408946021" target="_blank" class="social-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h3v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h3z"></path>
-                        </svg>
-                    </a>
-                </div>
             </div>
         </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Precision Podiatry Group. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://instagram.com/precisionpodiatrygroup" target="_blank" class="social-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61590408946021" target="_blank" class="social-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h3v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h3z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
